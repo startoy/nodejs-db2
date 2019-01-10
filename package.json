@@ -1,0 +1,14 @@
+{
+  "name": "test_connect_ibm_db2",
+  "version": "1.0.0",
+  "description": "run node app.js for test connect to db2, config edit inside app.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "keywords": [
+    "db2"
+  ],
+  "author": "PEERAPAT SUKSRI",
+  "license": "ISC"
+}
