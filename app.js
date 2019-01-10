@@ -4,7 +4,7 @@ console.log("Test program to access DB2 sample database");
 
 process.env.DB2CODEPAGE="874";
 
-var connectionString = "DATABASE=fisdb_nt;UID=db2inst1;PWD=db2inst1;HOSTNAME=10.22.19.13;port=50001";
+var connectionString = "DATABASE=<YOUR_DBNAME>;UID=<YOUR_UID>;PWD=<YOUR_PWD>;HOSTNAME=<YOUR_HOSTNAME>;port=<PORT>";
 
 ibmdb.open(connectionString, function(err, conn) {
     if (err) return console.log(err);
